@@ -1,0 +1,27 @@
+.game-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    font-size:2.5rem;
+}
+
+.btn{
+    font-size:2.5rem;
+    padding:0.1rem 2rem;
+    padding-bottom: .2rem;
+    border-radius: 3rem;
+    border: 2px dashed black;
+    color:white;
+    /* position: relative; */
+    background: linear-gradient(20deg,rgb(73, 31, 56),rgb(75, 75, 164));
+}
+
+.curr-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem;
+    width:100%;
+}

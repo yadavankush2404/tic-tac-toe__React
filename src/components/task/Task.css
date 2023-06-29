@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
+}
+
+.ttt-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+}
