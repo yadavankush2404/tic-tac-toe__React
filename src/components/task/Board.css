@@ -14,6 +14,7 @@
     border-radius: 3rem;
     border: 2px dashed black;
     color:white;
+    font-family: "Fredoka";
     /* position: relative; */
     background: linear-gradient(20deg,rgb(73, 31, 56),rgb(75, 75, 164));
 }
@@ -24,4 +25,28 @@
     align-items: center;
     margin-bottom:1rem;
     width:100%;
+}
+
+@media (max-width: 540px)
+{
+    .curr-status{
+        font-size:1.5rem;
+    }
+
+    .btn{
+        font-size:1.5rem;
+        padding: 0.1rem 1.5rem;
+    }
+}
+
+@media (max-width: 340px )
+{
+    .curr-status{
+        font-size:1rem;
+    }
+
+    .btn{
+        font-size:1rem;
+        padding: 0.1rem 1rem;
+    }
 }
